@@ -6,3 +6,8 @@ Being a one-dimensional model, this tool is meant more for noise reduction as op
 ![image](https://github.com/user-attachments/assets/1900827f-92d7-4db8-80ec-c00601ff07fb)
 
 An EQ curve like this is similar to the one applied by the noise reduction model. Likely, further equalizing to boost the higher frequencies will need to be applied to create a more natural-sounding recording.
+
+# How to Use
+```
+python denoise_audio.py input.wav output.wav
+```
