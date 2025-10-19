@@ -8,8 +8,8 @@ SAMPLE_RATE = 16000
 CHUNK_SIZE = 8192
 BATCH_SIZE = 8
 EPOCHS = 200
-NPZ_PATH = "/content/drive/MyDrive/Denoiser/denoiser_random_15k.npz"
-CHECKPOINT_PATH = "/content/drive/MyDrive/Denoiser/best_denoiser_v6.keras"
+NPZ_PATH = "./denoiser_random_15k.npz"
+CHECKPOINT_PATH = "./denoiser_lite.keras"
 
 
 # ==== DATA GENERATOR ====
