@@ -10,9 +10,9 @@ from scipy.signal import butter, filtfilt
 SAMPLE_RATE = 16000
 CHUNK_SIZE = 8192
 HOP_SIZE = CHUNK_SIZE // 2  # 50% overlap
-WEIGHT_PATH = "/content/drive/MyDrive/Denoiser/best_denoiser_v6.keras"
-INPUT_FILE = "/content/drive/MyDrive/Denoiser/sample_noisy.wav"
-OUTPUT_FILE = "/content/drive/MyDrive/Denoiser/test_denoised_end_to_end_light_weight_3.wav"
+WEIGHT_PATH = "./best_denoiser_v6.keras"
+INPUT_FILE = "./sample_noisy.wav"
+OUTPUT_FILE = "./denoised_audio.wav"
 
 
 # ==== LIGHT-WEIGHT MODEL ====
